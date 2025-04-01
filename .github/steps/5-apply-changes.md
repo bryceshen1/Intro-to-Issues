@@ -1,18 +1,11 @@
-<!--
-  <<< Author notes: Step 5 >>>
-  Start this step by acknowledging the previous step.
-  Define terms and link to docs.github.com.
--->
+## Step 6: Reopening an Issue
 
-## Step 5: Apply suggested changes
+Sometimes, an issue might need to be revisited — maybe the problem wasn’t fully resolved, or new information has come up. In these cases, you can easily reopen the issue to resume the discussion and work.
 
-_Nicely done suggesting changes! :partying_face:_
+### :repeat: Reopen the Issue:
 
-Now let's see how easy it is to [apply your suggestion](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/incorporating-feedback-in-your-pull-request).
+- Navigate to the bottom of the closed issue page.
+- You’ll see a button labeled **"Reopen issue"**.
+- Click this button to reopen the issue and continue tracking progress.
 
-### :keyboard: Activity: Apply suggested changes
-
-1. Click **Commit suggestion**.
-1. Type a commit message.
-1. Click **Commit changes**.
-1. Wait about 20 seconds then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
+Once reopened, team members can comment, update, or assign the issue as needed. :hammer_and_wrench:
