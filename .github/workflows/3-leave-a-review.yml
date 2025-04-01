@@ -1,3 +1,5 @@
+name: Step 3, Assign a milestone to an issue
+
 on:
   workflow_dispatch:
   issues:
