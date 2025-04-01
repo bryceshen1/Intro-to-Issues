@@ -1,3 +1,5 @@
+name: Step 2, Label an issue
+
 on:
   workflow_dispatch:
   issues:
