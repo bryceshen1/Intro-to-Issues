@@ -1,10 +1,10 @@
-name: Step 3, Assign a milestone to an issue
+name: Step 5, Commenting on an issue
 
 on:
   workflow_dispatch:
-  issues:
+  issue_comment:
     types:
-      - milestoned
+      - created
 
 permissions:
   contents: write
@@ -26,13 +26,13 @@ jobs:
     outputs:
       current_step: ${{ steps.get_step.outputs.current_step }}
 
-  on_assign_milestone:
-    name: On assign milestone
+  on_comment_issue:
+    name: On comment issue
     needs: get_current_step
     if: >-
       ${{ !github.event.repository.is_template
-          && needs.get_current_step.outputs.current_step == '3'
-          && github.event.issue.milestone != null }}
+          && needs.get_current_step.outputs.current_step == '5'
+          && github.event.comment.body != '' }}
 
     runs-on: ubuntu-latest
 
@@ -43,10 +43,10 @@ jobs:
           fetch-depth: 0
           ref: main # Ensure it fetches from the main/default branch.
 
-      - name: Update to step 4
+      - name: Update to step 6
         uses: skills/action-update-step@v2
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          from_step: 3
-          to_step: 4
+          from_step: 5
+          to_step: 6
           branch_name: update-game
