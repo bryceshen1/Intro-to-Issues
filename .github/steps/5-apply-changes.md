@@ -4,6 +4,8 @@ Sometimes, an issue might need to be revisited — maybe the problem wasn’t fu
 
 ### :repeat: Reopen the Issue:
 
+- Click the issues tab
+- Click the Closed tab
 - Navigate to the bottom of the closed issue page.
 - You’ll see a button labeled **"Reopen issue"**.
 - Click this button to reopen the issue and continue tracking progress.
