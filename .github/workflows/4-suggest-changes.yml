@@ -1,3 +1,5 @@
+name: Step 4, Assign an issue
+
 on:
   workflow_dispatch:
   issues:
