@@ -1,23 +1,31 @@
-<!--
-  <<< Author notes: Step 2 >>>
-  Start this step by acknowledging the previous step.
-  Define terms and link to docs.github.com.
-  Historic note: this step combines the commend, approve, and needs changes steps from the previous version.
--->
+## Step 2: Collaborating on Issues
 
-## Step 2: Assign yourself
+Well done creating an issue! :wave:
 
-_Great job opening that pull request! :wave:_
+### What is Collaboration on Issues?
 
-**What is a _pull request review_?**: Reviewing a pull request is an opportunity to examine another contributor's changes and give them feedback. It's an awesome opportunity to learn more about how the project works and how others solve problems.
+Collaboration on issues is an array of ways for teams to work together, manage, and resolve issues. It involves communication, feedback, and teamwork to track, solve, and complete problems effectively.
 
-The best way to get a review is to ask for one. On GitHub, you can ask someone to review a pull request by assigning them as a reviewer or assignee. If you are not ready for review, consider [creating a draft pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) instead.
+### Key Elements of Collaborating on an Issue:
 
-### :keyboard: Activity: Assign yourself
+- **Commenting**: Team members can comment on an issue to ask questions, provide feedback, or clarify details.
 
-1. Open the pull request you just created.
-1. Under **Assignees** on the right side of the screen, add yourself.
+- **@Mentions**: You can `@mention` team members in comments to notify them and involve them directly in the conversation.
 
-   Because you created the pull request, you can't assign yourself as a reviewer, but feel free to assign a friend as a reviewer instead to see how it works :smile:
+- **Tracking Progress**: Team members can update the status or provide updates, keeping everyone informed about the progress.
 
-1. Wait about 20 seconds then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
+---
+
+### How to Comment on an Issue
+
+1. Open the issue you want to comment on.
+2. Scroll down to the comment section at the bottom of the page.
+3. Make sure you format your comment this way:  
+   **comment_name**
+4. Type your comment in the text box. You can provide an update such as:  
+   **The task is complete**  
+   **Issue resolved, everything is working as expected**
+5. You can also mention a team member in your comment:
+   - While writing your comment, type `@` followed by the username of the person you want to mention (e.g., `@username`).
+   - This will notify the person, allowing them to respond or take action.
+6. Once you’ve written your message, click the **Comment** button to post it.
