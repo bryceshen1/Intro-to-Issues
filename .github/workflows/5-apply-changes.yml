@@ -42,10 +42,10 @@ jobs:
           fetch-depth: 0
           ref: main # Ensure it fetches from the main/default branch.
 
-      - name: Update to step 6
+      - name: Update to finish
         uses: skills/action-update-step@v2
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           from_step: 5
-          to_step: 6
+          to_step: X
           branch_name: update-game
