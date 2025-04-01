@@ -1,27 +1,48 @@
-<!--
-  <<< Author notes: Step 1 >>>
-  Choose 3-5 steps for your course.
-  The first step is always the hardest, so pick something easy!
-  Link to docs.github.com for further explanations.
-  Encourage users to open new tabs for steps!
--->
+## Step 1: Creating an Issue
 
-## Step 1: Open a pull request
+Welcome to GitHub Issues!
 
-_Welcome to "Review pull requests"! :wave:_
+### :question: What is an Issue?
 
-Let's get started by opening a pull request.
+An **Issue** is a task, bug, or feature request that you can track and follow up on within a project. It's a great way to manage tasks and let your team know what needs to get done.
 
-**What is a pull request?**: Collaboration happens on a pull request. The pull request shows the changes in your branch to other people. This pull request is going to keep the changes you just made on your branch and propose applying them to the `main` branch.
+The best way to start tracking work is by opening an issue. When creating an issue, you can write clear descriptions and apply labels to help your team understand and prioritize it. The key is to provide a **concise and detailed description** of the task at hand, along with any relevant context.
 
-### :keyboard: Activity: Create a pull request
+---
 
-1. Click on the **Pull requests** tab in your repository.
-2. Click **New pull request**.
-3. In the **base:** dropdown, make sure **main** is selected.
-4. Select the **compare:** dropdown, and click `update-game`.
-5. Click **Create pull request**.
-6. Enter a title for your pull request: `Update the game over message`.
-7. Enter a description for your pull request: `Update the game over message so people know how to play again!`
-8. Click **Create pull request**.
-9. Wait about 20 seconds then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
+### :keyboard: Task: Open an Issue
+
+1. Go to the **Issues** tab in your GitHub repository.
+2. Navigate to the main page of your repository on GitHub.
+3. Under your repository name, click **Issues**.
+4. Click **New issue** to create a new one.
+5. If your repository uses issue templates:
+   - Click **Get started** next to the type of issue you'd like to open.
+6. If not:
+   - Click **Open a blank issue**.
+
+---
+
+### 📝 Fill Out the Issue Form
+
+7. In the **Title** field, type a clear and concise summary of the task or problem.
+8. In the **Comment body** field, provide a detailed description of your issue:
+   - Include any relevant context.
+   - Add background information or reproduction steps.
+
+---
+
+### :label: Add a Label to Your Issue
+
+Adding a label helps categorize your issue and allows it to be easily referenced in pull requests or discussions.
+
+1. In the horizontal navigation bar, go to the **Issues** tab (highlighted in orange).
+2. Above the list of issues or pull requests, click **Labels**.
+3. To the right of the search field, click **New label**.
+4. Under **Label name**, enter a name for your label.
+5. Under **Description**, type a brief explanation to help others understand the label’s purpose.
+6. Click **Create label** / **Save changes** / **Delete** depending on your task.
+
+---
+
+When you're finished, click **Submit new issue** to create and publish the issue. :tada:
