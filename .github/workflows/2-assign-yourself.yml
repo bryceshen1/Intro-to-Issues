@@ -1,4 +1,4 @@
-name: Step 5, Commenting on an issue
+name: Step 2, Commenting on an issue
 
 on:
   workflow_dispatch:
