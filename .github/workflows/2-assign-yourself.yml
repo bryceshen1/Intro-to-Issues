@@ -31,7 +31,7 @@ jobs:
     needs: get_current_step
     if: >-
       ${{ !github.event.repository.is_template
-          && needs.get_current_step.outputs.current_step == '5'
+          && needs.get_current_step.outputs.current_step == '2'
           && github.event.comment.body != '' }}
 
     runs-on: ubuntu-latest
@@ -43,10 +43,10 @@ jobs:
           fetch-depth: 0
           ref: main # Ensure it fetches from the main/default branch.
 
-      - name: Update to step 6
+      - name: Update to step 3
         uses: skills/action-update-step@v2
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          from_step: 5
-          to_step: 6
+          from_step: 2
+          to_step: 3
           branch_name: update-game
