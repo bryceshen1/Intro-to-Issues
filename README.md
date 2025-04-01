@@ -27,7 +27,7 @@ People use GitHub Issues to manage tasks, track progress, and collaborate on var
 - **What you'll learn**: How to create and keep issues up to date; how to organize issues with labels, milestones, and assignees; how to track progress with GitHub Issues.
 - **What you'll build**: A simple project board using GitHub Issues to track your work and an effective workflow with clear task assignments.
 - **Prerequisites**: …
-- **How long**: …
+- **How long**: 10-15 Minutes
 
 In this course, you will:
 
