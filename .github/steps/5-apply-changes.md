@@ -1,4 +1,4 @@
-## Step 6: Reopening an Issue
+## Step 5: Reopening an Issue
 
 Sometimes, an issue might need to be revisited — maybe the problem wasn’t fully resolved, or new information has come up. In these cases, you can easily reopen the issue to resume the discussion and work.
 
