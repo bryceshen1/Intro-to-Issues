@@ -1,4 +1,4 @@
-# Step 4: Resolving an Issue
+## Step 4: Resolving an Issue
 
 Once an issue has been addressed or the task is complete, it's time to close it. Closing an issue helps keep your project organized and signals to your team that no further action is needed.
 
