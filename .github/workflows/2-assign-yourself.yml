@@ -1,10 +1,10 @@
-name: Step 2, Label an issue
+name: Step 4, Assign an issue
 
 on:
   workflow_dispatch:
   issues:
     types:
-      - labeled
+      - assigned
 
 permissions:
   contents: write
@@ -26,13 +26,13 @@ jobs:
     outputs:
       current_step: ${{ steps.get_step.outputs.current_step }}
 
-  on_labeled_issue:
-    name: On labeled issue
+  on_assign_issue:
+    name: On assign issue
     needs: get_current_step
     if: >-
       ${{ !github.event.repository.is_template
-          && needs.get_current_step.outputs.current_step == '2'
-          && github.event.label.name == 'Step 2' }}
+          && needs.get_current_step.outputs.current_step == '4'
+          && github.event.issue.assignee != null }}
 
     runs-on: ubuntu-latest
 
@@ -41,12 +41,12 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          ref: main # Ensuring it fetches from the main/default branch.
+          ref: main # Ensure it fetches from the main/default branch.
 
-      - name: Update to step 3
+      - name: Update to step 5
         uses: skills/action-update-step@v2
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          from_step: 2
-          to_step: 3
+          from_step: 4
+          to_step: 5
           branch_name: update-game
