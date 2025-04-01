@@ -33,10 +33,9 @@ In this course, you will:
 
 1. Create an issue
 2. Use labels & milestones
-3. Assign issues
-4. Collaborate on issues
-5. Resolve an issue
-6. Follow best practices
+3. Collaborate on issues
+4. Assign issues
+5. Resolve and Reopen an issue
 
 ### How to start this course
 
