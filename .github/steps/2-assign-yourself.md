@@ -20,11 +20,9 @@ Collaboration on issues is an array of ways for teams to work together, manage, 
 
 1. Open the issue you want to comment on.
 2. Scroll down to the comment section at the bottom of the page.
-3. Make sure you format your comment this way:  
-   **comment_name**
+3. Make sure you format your comment to be in between 2 asterisks: `**comment_name**`
 4. Type your comment in the text box. You can provide an update such as:  
-   **The task is complete**  
-   **Issue resolved, everything is working as expected**
+   `**The task is complete**` or `**Issue resolved, everything is working as expected**`
 5. You can also mention a team member in your comment:
    - While writing your comment, type `@` followed by the username of the person you want to mention (e.g., `@username`).
    - This will notify the person, allowing them to respond or take action.
