@@ -36,7 +36,7 @@ In this course, you will:
 2. Use labels and milestones
 3. Collaborate on Issues
 4. Assign Issues
-5. Resolve and Reopen an Issue
+5. Resolve and reopen an Issue
 
 ### How to start this course
 
