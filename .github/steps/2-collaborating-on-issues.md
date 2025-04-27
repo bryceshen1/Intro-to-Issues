@@ -2,11 +2,11 @@
 
 Well done creating an issue!
 
-### What is Collaboration on Issues?
+### What is collaboration on Issues?
 
 Collaboration on issues is an array of ways for teams to work together, manage, and resolve issues. It involves communication, feedback, and teamwork to track, solve, and complete problems effectively.
 
-### Key Elements of Collaborating on an Issue:
+### Key elements of collaborating on an Issue:
 
 - **Commenting**: Team members can comment on an issue to ask questions, provide feedback, or clarify details.
 
