@@ -2,7 +2,7 @@
 
 Great job commenting on an issue!
 
-### :busts_in_silhouette: What is Issue Assigning?
+### :busts_in_silhouette: What is Issue assigning?
 
 Assigning an issue to a team member allows the project manager (or any collaborator) to delegate the task to someone responsible for completing it by a specific deadline. This helps distribute work efficiently and ensures that no task is left unfinished.
 
