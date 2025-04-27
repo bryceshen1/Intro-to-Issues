@@ -45,4 +45,4 @@ Adding a label helps categorize your issue and allows it to be easily referenced
 
 ---
 
-When you're finished, click **Submit new issue** to create and publish the issue. :tada:
+When you're finished, click **Create** to create and publish the issue. :tada:
