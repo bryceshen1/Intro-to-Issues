@@ -20,11 +20,6 @@ The best way to start tracking work is by opening an issue. When creating an iss
    - Click **Get started** next to the type of issue you'd like to open.
 6. If not:
    - Click **Open a blank issue**.
-
----
-
-### 📝 Fill Out the Issue Form
-
 7. In the **Title** field, type a clear and concise summary of the task or problem.
 8. In the **Comment body** field, provide a detailed description of your issue:
    - Include any relevant context.
