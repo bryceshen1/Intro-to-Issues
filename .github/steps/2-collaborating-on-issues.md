@@ -16,7 +16,7 @@ Collaboration on issues is an array of ways for teams to work together, manage, 
 
 ---
 
-### How to Comment on an Issue
+### :keyboard: Task: Comment on an Issue
 
 1. Open the issue you want to comment on.
 2. Scroll down to the comment section at the bottom of the page.
