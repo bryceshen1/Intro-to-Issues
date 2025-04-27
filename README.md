@@ -31,11 +31,11 @@ People use GitHub Issues to manage tasks, track progress, and collaborate on var
 
 In this course, you will:
 
-1. Create an issue
+1. Create an Issue
 2. Use labels & milestones
-3. Collaborate on issues
-4. Assign issues
-5. Resolve and Reopen an issue
+3. Collaborate on Issues
+4. Assign Issues
+5. Resolve and Reopen an Issue
 
 ### How to start this course
 
