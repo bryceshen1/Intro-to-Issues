@@ -5,7 +5,7 @@ Once an issue has been addressed or the task is complete, it's time to close it.
 ### :white_check_mark: Close the Issue:
 
 - Scroll to the bottom of the issue page.
-- You’ll see a button labeled **"Close issue"**.
+- You’ll see a button labeled **Close issue**.
 - Click this button to mark the issue as resolved.
 
 That's it — your issue is now closed and archived! :tada:
