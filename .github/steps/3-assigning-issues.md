@@ -6,7 +6,8 @@ Great job commenting on an issue! :wave:
 
 Assigning an issue to a team member allows the project manager (or any collaborator) to delegate the task to someone responsible for completing it by a specific deadline. This helps distribute work efficiently and ensures that no task is left unfinished.
 
-You can only assign an issue to a team member added to your repository.
+_You can only assign an issue to a team member added to your repository_
+
 ---
 
 ### :clipboard: Task: Assign an Issue
