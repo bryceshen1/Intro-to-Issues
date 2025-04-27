@@ -1,6 +1,6 @@
 ## Step 2: Collaborating on Issues
 
-Well done creating an issue! :wave:
+Well done creating an issue!
 
 ### What is Collaboration on Issues?
 
