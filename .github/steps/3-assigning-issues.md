@@ -1,6 +1,6 @@
 ## Step 3: Assigning Issues
 
-Great job commenting on an issue!
+Great job commenting on an Issue!
 
 ### :busts_in_silhouette: What is Issue assigning?
 
