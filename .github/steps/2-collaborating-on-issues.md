@@ -1,6 +1,6 @@
 ## Step 2: Collaborating on Issues
 
-Well done creating an issue!
+Well done creating an Issue!
 
 ### What is collaboration on Issues?
 
