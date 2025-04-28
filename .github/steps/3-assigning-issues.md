@@ -6,7 +6,7 @@ Great job commenting on an Issue!
 
 Assigning an issue to a team member allows the project manager (or any collaborator) to delegate the task to someone responsible for completing it by a specific deadline. This helps distribute work efficiently and ensures that no task is left unfinished.
 
-_You can only assign an issue to a team member added to your repository_
+_You can only assign an Issue to a team member added to your repository_
 
 ---
 
