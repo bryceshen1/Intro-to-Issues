@@ -17,4 +17,4 @@ _You can only assign an Issue to a team member added to your repository_
 3. Click the **Assignees** field and select the appropriate person from the list of contributors.
 4. You can assign the issue to yourself for this GitHub Skill exercise.
 
-Once assigned, the issue becomes part of that person’s task list and can be tracked through their GitHub dashboard. :white_check_mark:
+Once assigned, the Issue becomes part of that person’s task list and can be tracked through their GitHub dashboard. :white_check_mark:
