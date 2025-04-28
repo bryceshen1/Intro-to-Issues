@@ -13,7 +13,7 @@ _You can only assign an Issue to a team member added to your repository_
 ### :clipboard: Task: Assign an Issue
 
 1. Open the issue you want to assign.
-2. On the right side of the issue page, locate the **Assignees** section.
+2. On the right side of the Issue page, locate the **Assignees** section.
 3. Click the **Assignees** field and select the appropriate person from the list of contributors.
 4. You can assign the issue to yourself for this GitHub Skill exercise.
 
