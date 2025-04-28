@@ -26,7 +26,7 @@ People use GitHub Issues to manage tasks, track progress, and collaborate on var
 - **Who is this for**: Project managers, team members, and GitHub users interested in learning how to use GitHub Issues to track and manage work.
 - **What you'll learn**: How to create and keep issues up to date; how to organize issues with labels, milestones, and assignees; how to track progress with GitHub Issues.
 - **What you'll build**: A simple project board using GitHub Issues to track your work and an effective workflow with clear task assignments.
-- **Prerequisites**: In this course, you will work with GitHub Issues requests. We recommend you take the Introduction to GitHub course and Communicate using Markdown first!
+- **Prerequisites**: In this course, you will work with GitHub Issues. We recommend you take the Introduction to GitHub course and Communicate using Markdown first!
 
 - **How long**: 10-15 minutes
 
