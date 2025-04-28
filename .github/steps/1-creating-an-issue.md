@@ -6,7 +6,7 @@ Welcome to GitHub Issues!
 
 An **Issue** is a task, bug, or feature request that you can track and follow up on within a project. It's a great way to manage tasks and let your team know what needs to get done.
 
-The best way to start tracking work is by opening an issue. When creating an issue, you can write clear descriptions and apply labels to help your team understand and prioritize it. The key is to provide a **concise and detailed description** of the task at hand, along with any relevant context.
+The best way to start tracking work is by opening an issue. When creating an issue, you can write clear descriptions and apply labels to help your team understand and prioritize it. The key is to provide a concise and detailed description of the task at hand, along with any relevant context.
 
 ---
 
