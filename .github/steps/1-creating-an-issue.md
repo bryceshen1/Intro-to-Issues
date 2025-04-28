@@ -27,7 +27,7 @@ The best way to start tracking work is by opening an issue. When creating an iss
 
 ---
 
-### :label: Add a Label to Your Issue
+### :label: Add a label to your Issue
 
 Adding a label helps categorize your issue and allows it to be easily referenced in pull requests or discussions.
 
