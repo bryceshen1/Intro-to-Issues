@@ -13,10 +13,10 @@ As you continue working on GitHub, remember that high quality reviews improve yo
 
 Here's a recap of all the tasks you've accomplished in your repository:
 
-- You learned how to assign pull requests for review.
-- You left a review on a pull request.
-- You suggested changes to a pull request.
-- You applied suggested changes to a pull request.
+- You learned how to create an issue.
+- You left a comment on an issue.
+- You assigned an issue to a collaborator.
+- You closed and reopened an issue.
 
 ### What's next?
 
