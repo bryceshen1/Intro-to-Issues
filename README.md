@@ -42,12 +42,11 @@ In this course, you will:
 
 <!-- For start course, run in JavaScript:
 'https://github.com/new?' + new URLSearchParams({
-  template_owner: 'skills',
-  template_name: 'review-pull-requests',
+  template_owner: 'bryceshen1',
+  template_name: 'Intro-to-Issues',
   owner: '@me',
-  name: 'skills-review-pull-requests',
-  description: 'My clone repository',
-  visibility: 'public',
+  name: 'Intro-to-Issues',
+  description: 'Learning GitHub Issues',
 }).toString()
 -->
 
