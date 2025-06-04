@@ -1,4 +1,4 @@
-name: Step 5, Reopen an Issue
+name: Step 5
 
 on:
   workflow_dispatch:
@@ -8,44 +8,54 @@ on:
 
 permissions:
   contents: write
+  actions: write
+  issues: write
+
+env:
+  REVIEW_FILE: ".github/steps/x-review.md"
 
 jobs:
-  get_current_step:
-    name: Check current step number
+  find_exercise:
+    name: Find Exercise Issue
+    uses: skills/exercise-toolkit/.github/workflows/find-exercise-issue.yml@v0.5.0
+
+  post_review_content:
+    name: Post review content
+    needs: [find_exercise]
     runs-on: ubuntu-latest
+    if: |
+      !github.event.repository.is_template
+    env:
+      ISSUE_URL: ${{ needs.find_exercise.outputs.issue-url }}
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - id: get_step
+
+      - name: Create comment - add step content
         run: |
-          if [ -f ./.github/steps/-step.txt ]; then
-            echo "current_step=$(cat ./.github/steps/-step.txt)" >> $GITHUB_OUTPUT
-          else
-            echo "current_step=0" >> $GITHUB_OUTPUT
-          fi
-    outputs:
-      current_step: ${{ steps.get_step.outputs.current_step }}
+          gh issue comment "$ISSUE_URL" \
+            --body-file "$REVIEW_FILE"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-  on_reopen_issue:
-    name: On reopen issue
-    needs: get_current_step
-    if: >-
-      ${{ !github.event.repository.is_template
-          && needs.get_current_step.outputs.current_step == '5' }}
+  finish_exercise:
+    name: Finish Exercise
+    needs: [find_exercise, post_review_content]
+    uses: skills/exercise-toolkit/.github/workflows/finish-exercise.yml@v0.5.0
+    with:
+      issue-url: ${{ needs.find_exercise.outputs.issue-url }}
 
+  disable_workflow:
+    name: Disable this workflow
+    needs: [find_exercise, post_review_content]
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-          ref: main # Ensure it fetches from the main/default branch.
 
-      - name: Update to finish
-        uses: skills/action-update-step@v2
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          from_step: 5
-          to_step: X
-          branch_name: update-game
+      - name: Disable current workflow
+        run: gh workflow disable "${{github.workflow}}"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
