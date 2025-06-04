@@ -21,7 +21,6 @@ In this course, you will:
 4. Assign Issues
 5. Resolve and reopen an Issue
 
-
 ### How to start this exercise
 
 Simply copy the exercise to your account, then give your favorite Octocat (Mona) **about 20 seconds** to prepare the first lesson, then **refresh the page**.
@@ -47,5 +46,8 @@ If the exercise isn't ready in 20 seconds:
 </details>
 
 ---
+<img width="50" alt="Berkeley Business Society Logo" align="left" src="https://github.com/user-attachments/assets/e9c8f55f-9e82-40fb-9fca-72caeda8aee6">
+<img width="50" alt="GitHub Logo" align="left" src="https://github.com/user-attachments/assets/6c42275f-d0c8-40a1-868d-18d70bb95dbc">
 
+Made in collaboration with [Berkeley Business Society](https://www.berkeleybusinesssociety.com)  
 &copy; 2025 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
